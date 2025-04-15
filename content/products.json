@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "Bạch tuộc sốt wasabi (tako wasabi)",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp1.jpg",
+        "price": 702000,
+        "unit": "Kg"
+    },
+    {
+        "id": 2,
+        "name": "Cá hồi Nauy nguyên con tươi (Salmon)",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp2.png",
+        "price": 618000,
+        "unit": "Kg"
+    },
+    {
+        "id": 3,
+        "name": "Cá hồi Nauy tươi Fillet (Salmon)",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp3.png",
+        "price": 948000,
+        "unit": "Kg"
+    },
+    {
+        "id": 4,
+        "name": "Đầu cá hồi (Salmon)",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp4.jpg",
+        "price": 98000,
+        "unit": "Kg"
+    },
+    {
+        "id": 5,
+        "name": "Lườn Cá hồi Nauy tươi (Salmon)",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp5.jpg",
+        "price": 178000,
+        "unit": "Kg"
+    },
+    {
+        "id": 6,
+        "name": "Trứng cá tuyết tẩm gia vị Mentaiko {YAMAYA}-80g",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp6.jpg",
+        "price": 128000,
+        "unit": "box"
+    },
+    {
+        "id": 7,
+        "name": "Xương Cá hồi",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp7.jpg",
+        "price": 58000,
+        "unit": "Kg"
+    },
+    {
+        "id": 8,
+        "name": "Ba chỉ bò Mỹ cuộn 500g",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp8.jpg",
+        "price": 189000,
+        "unit": "Khay"
+    },
+    {
+        "id": 9,
+        "name": "Ba rọi cuộn (Iberico roll Belly) - Khay 300gr",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp9.jpg",
+        "price": 168000,
+        "unit": "Khay"
+    },
+    {
+        "id": 10,
+        "name": "Bánh nhân bạch tuộc Takoyaki 1.2kg (40x30g)",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp10.jpg",
+        "price": 235000,
+        "unit": "Túi"
+    },
+    {
+        "id": 11,
+        "name": "Bánh nhân bạch tuộc Takoyaki túi 1kg",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp11.jpg",
+        "price": 189000,
+        "unit": "Túi"
+    },
+    {
+        "id": 12,
+        "name": "Đầu Thăn Ngoại Bò Hokubee Úc Đông Lạnh 300G",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp12.png",
+        "price": 349000,
+        "unit": "Khay"
+    },
+    {
+        "id": 13,
+        "name": "IB Jowl Meat Thịt diềm má 300gr/khay",
+        "sub_category_id": 1,
+        "image_url": "/assets/images/sp13.jpg",
+        "price": 282000,
+        "unit": "Khay"
+    },
+    {
+        "id": 14,
+        "name": "Lõi nạc vai bò (top blade) Mỹ cắt steak 500g",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp14.jpg",
+        "price": 359000,
+        "unit": "Khay"
+    },
+    {
+        "id": 15,
+        "name": "Thăn Ngoại Bò Hitachi A5 (Sirloin)",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp15.jpg",
+        "price": 4980000,
+        "unit": "Kg"
+    },
+    {
+        "id": 16,
+        "name": "Thịt ba rọi Bò Mỹ cắt sẵn 500gr",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp16.jpg",
+        "price": 358000,
+        "unit": "Kg"
+    },
+    {
+        "id": 17,
+        "name": "Thịt diềm thăn (IB Serecto Penceta)",
+        "sub_category_id": 6,
+        "image_url": "/assets/images/sp17.jpg",
+        "price": 258000,
+        "unit": "Khay"
+    }
+]

@@ -1,0 +1,199 @@
+[
+    {
+        "id": 1,
+        "name": "FISH AND SEAFOOD",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "PROCESSED MEAT",
+        "category_id": 1
+    },
+    {
+        "id": 3,
+        "name": "VEGETABLES",
+        "category_id": 1
+    },
+    {
+        "id": 4,
+        "name": "FROZEN MOCHI",
+        "category_id": 2
+    },
+    {
+        "id": 5,
+        "name": "FROZEN SEAFOOD",
+        "category_id": 2
+    },
+    {
+        "id": 6,
+        "name": "FROZEN MEAT",
+        "category_id": 2
+    },
+    {
+        "id": 7,
+        "name": "OTHER FROZEN GOODS",
+        "category_id": 2
+    },
+    {
+        "id": 8,
+        "name": "FRONZEN READY TO COOK",
+        "category_id": 2
+    },
+    {
+        "id": 9,
+        "name": "ICE CREAM",
+        "category_id": 2
+    },
+    {
+        "id": 10,
+        "name": "BAKING ESSENTIALS",
+        "category_id": 3
+    },
+    {
+        "id": 11,
+        "name": "CANNED FOOD",
+        "category_id": 3
+    },
+    {
+        "id": 12,
+        "name": "BUTTER & CHEESE",
+        "category_id": 3
+    },
+    {
+        "id": 13,
+        "name": "DRIED BEANS & VEGETABLES",
+        "category_id": 3
+    },
+    {
+        "id": 14,
+        "name": "DRIED BEANS & VEGETABLES",
+        "category_id": 3
+    },
+    {
+        "id": 15,
+        "name": "PASTA AND NOODLES",
+        "category_id": 3
+    },
+    {
+        "id": 16,
+        "name": "READY TO COOK",
+        "category_id": 3
+    },
+    {
+        "id": 17,
+        "name": "SAUCE AND CONDIMENTS",
+        "category_id": 3
+    },
+    {
+        "id": 18,
+        "name": "SEASONING",
+        "category_id": 3
+    },
+    {
+        "id": 19,
+        "name": "BISCUITS & CAKES",
+        "category_id": 4
+    },
+    {
+        "id": 20,
+        "name": "CANNED FRUITS",
+        "category_id": 4
+    },
+    {
+        "id": 21,
+        "name": "CHOCOLATE & CONFECTIONERY",
+        "category_id": 4
+    },
+    {
+        "id": 22,
+        "name": "MILK",
+        "category_id": 4
+    },
+    {
+        "id": 23,
+        "name": "PROCESSED DAIRY PRODUCTS",
+        "category_id": 4
+    },
+    {
+        "id": 24,
+        "name": "SNACKS, NUTS AND DRIED FRUITS",
+        "category_id": 4
+    },
+    {
+        "id": 25,
+        "name": "BEER",
+        "category_id": 5
+    },
+    {
+        "id": 26,
+        "name": "SAKE",
+        "category_id": 5
+    },
+    {
+        "id": 27,
+        "name": "UMESHU",
+        "category_id": 5
+    },
+    {
+        "id": 28,
+        "name": "CHAMPAGNE",
+        "category_id": 5
+    },
+    {
+        "id": 29,
+        "name": "RED WINE",
+        "category_id": 5
+    },
+    {
+        "id": 30,
+        "name": "ROSE WINE",
+        "category_id": 5
+    },
+    {
+        "id": 31,
+        "name": "SPIRITS",
+        "category_id": 5
+    },
+    {
+        "id": 32,
+        "name": "WHITE WINE",
+        "category_id": 5
+    },
+    {
+        "id": 33,
+        "name": "SOFT DRINKS",
+        "category_id": 5
+    },
+    {
+        "id": 34,
+        "name": "JUICES",
+        "category_id": 5
+    },
+    {
+        "id": 35,
+        "name": "COFFEE",
+        "category_id": 5
+    },
+    {
+        "id": 36,
+        "name": "JAPANESE TEA",
+        "category_id": 5
+    },
+    {
+        "id": 37,
+        "name": "BBQ COLLECTION",
+        "category_id": 6
+    },
+    {
+        "id": 38,
+        "name": "FAMILY MEAL",
+        "category_id": 6
+    },
+    {
+        "id": 39,
+        "name": "SAUCE COLLECTION",
+        "category_id": 6
+    }
+]
+
+
