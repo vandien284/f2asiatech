@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["@pinia/nuxt",'nuxt-keen-slider'],
+  modules: ["@pinia/nuxt", 'nuxt-keen-slider', "@nuxt/image"],
 
   components: true,
 

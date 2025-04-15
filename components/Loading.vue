@@ -6,7 +6,7 @@ const loadingStore = useLoadingStore();
 <template>
   <div class="bg-loader" v-if="loadingStore.load">
     <div class="w-full h-full flex justify-center items-center">
-      <img src="/assets/images/logo-brand.png" alt="">
+      <NuxtImg src="/images/logo-brand.png" sizes="10vw" alt="logo"></NuxtImg>
     </div>
   </div>
 </template>

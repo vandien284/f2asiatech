@@ -17,9 +17,10 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.10.0",
     "@pinia/nuxt": "latest",
-    "nuxt": "^3.16.2",
-    "nuxi": "^3.11.1"
+    "nuxi": "^3.11.1",
+    "nuxt": "^3.16.2"
   },
   "overrides": {
     "vue": "latest"

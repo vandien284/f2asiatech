@@ -25,35 +25,37 @@
                             <a href="https://www.facebook.com/YenMarketVN" target="_blank"
                                 class="relative inline-block mr-1"
                                 title="Facebook">
-                                <img class="lazy loaded"
-                                    src="/assets/images/icons/facebook.webp"
-                                    data-src="/assets/images/icons/facebook.webp"
-                                    alt="facebook" width="32" height="32">
+                                <NuxtImg class="lazy loaded"
+                                    src="/images/icons/facebook.webp"
+                                    data-src="/images/icons/facebook.webp"
+                                    alt="facebook" width="32" height="32"></NuxtImg>
                             </a>
                             <a href="#" target="_blank"
                                 class="relative inline-block mr-1"
                                 title="Instagram+">
-                                <img class="lazy loaded"
-                                    src="/assets/images/icons/instagram.webp"
-                                    data-src="/assets/images/icons/instagram.webp"
-                                    alt="instagram" width="32" height="32">
+                                <NuxtImg class="lazy loaded"
+                                    src="/images/icons/instagram.webp"
+                                    data-src="/images/icons/instagram.webp"
+                                    alt="instagram" width="32" height="32"></NuxtImg>
                             </a>
                             <a href="https://www.youtube.com/@yenmarket1761" target="_blank"
                                 class="relative inline-block mr-1"
                                 title="Youtube">
-                                <img class="lazy loaded"
-                                   src="/assets/images/icons/youtube.webp"
-                                    data-src="/assets/images/icons/youtube.webp"
-                                    alt="youtube" width="32" height="32">
+                                <NuxtImg class="lazy loaded"
+                                   src="/images/icons/youtube.webp"
+                                    data-src="/images/icons/youtube.webp"
+                                    alt="youtube" width="32" height="32"></NuxtImg>
                             </a>
                         </div>
-                        <a href="http://online.gov.vn/Home/WebDetails/66187" target="_blank"><img src="/assets/images/icons/logo_bct.webp" style="max-width:50%;"></a>
+                        <a href="http://online.gov.vn/Home/WebDetails/66187" target="_blank">
+                            <NuxtImg src="/images/icons/logo_bct.webp" style="max-width:50%;"></NuxtImg></a>
                     </div>
                 </div>
                 <div class="w-full sm:w-1/2 md:w-full lg:w-1/4 px-[12px]">
-                    <a href="he-thong-cua-hang" class="store d-inline-block" title="Hệ thống cửa hàng"><img alt="Hệ thống cửa hàng" src="/assets/images/icons/mew_store.webp" data-src="/assets/images/icons/mew_store.webp">
+                    <a href="he-thong-cua-hang" class="store d-inline-block" title="Hệ thống cửa hàng">
+                        <NuxtImg alt="Hệ thống cửa hàng" src="/images/icons/mew_store.webp" data-src="/images/icons/mew_store.webp"></NuxtImg>
                         <span class="inline-block font-normal mt-2">Hệ thống cửa hàng</span>
-					</a>
+					</a> 
                 </div>
             </div>
         </div>

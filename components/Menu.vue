@@ -26,15 +26,15 @@ const handleSubCategory = (id:number) => {
             <div @click="handleCategory(item.id)"
                 class="item-info flex items-center bg-[#f7f7f7] border-b border-b-[#e1e1e1] border-dotted gap-[12px] xl:w-[22rem] lg:w-[18rem] md:w-[14rem] px-[1rem] py-[0.5rem]  cursor-pointer">
                 <span class="flex-1 text-start fz-lg">{{ item.name }}</span>
-                <img v-if="item.categorys && item.categorys.length > 0" class="rotate-270"
-                    src="/assets/images/icons/icon-arrow.svg" alt="">
+                <NuxtImg v-if="item.categorys && item.categorys.length > 0" class="rotate-270"
+                    src="/images/icons/icon-arrow.svg" alt="arrow"></NuxtImg>
             </div>
         </div>
         <div v-if="showCategory" class="list-case  !left-[22rem] xl:!left-[22rem] lg:!left-[18rem] md:!left-[14rem] xl:w-[20rem] lg:w-[16rem] md:w-[12rem] relative h-full gap-0 p-0 flex flex-col">
             <div v-for="item in newCategory" :key="item.id" @click="handleSubCategory(item.id)"
                 class="item-info flex items-center bg-[#f7f7f7] border-b border-b-[#e1e1e1] border-dotted gap-[12px] w-full px-[1rem] py-[0.5rem]  cursor-pointer">
                 <span class="flex-1 text-start fz-lg">{{ item.name }}</span>
-                <img v-if="item.sub_category && item.sub_category.length > 0" class="rotate-270" src="/assets/images/icons/icon-arrow.svg" alt="">
+                <NuxtImg v-if="item.sub_category && item.sub_category.length > 0" class="rotate-270" src="/assets/images/icons/icon-arrow.svg" alt="arrow"></NuxtImg>
             </div>
         </div>
         <div v-if="showSubCase" class="list-case list-sub-case !left-[42rem] xl:w-[20rem] lg:w-[16rem] md:w-[12rem] xl:!left-[42rem] lg:!left-[34rem] md:!left-[26rem]  relative h-full gap-0 p-0 flex flex-col">

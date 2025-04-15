@@ -1,13 +1,13 @@
 <template>
     <div class="w-full flex items-center scroll">
         <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <img src="/assets/images/banner3_1.webp" class="max-w-full" alt="">
+            <NuxtImg src="/images/banner3_1.webp" class="max-w-full" alt="content 1"></NuxtImg>
         </div>
         <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <img src="/assets/images/banner3_3.webp" class="max-w-full" alt="">
+            <NuxtImg src="/images/banner3_3.webp" class="max-w-full" alt="content 2"></NuxtImg>
         </div>
         <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <img src="/assets/images/banner3_2.webp" class="max-w-full" alt="">
+            <NuxtImg src="/images/banner3_2.webp" class="max-w-full" alt="content 3"></NuxtImg>
         </div>
     </div>
 </template>

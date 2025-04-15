@@ -55,19 +55,19 @@ onMounted(() => {
         <div class="w-full justify-center flex flex-wrap relative overflow-hidden">
             <div class="keen-slider pt-[12px]" ref="container">
                 <div class="keen-slider__slide number-slide1 w-full">
-                    <img src="/assets/images/banner1.jpg" alt="banner 1">
+                    <NuxtImg src="/images/banner1.jpg" alt="banner 1"></NuxtImg>
                 </div>
                 <div class="keen-slider__slide number-slide2 w-full">
-                    <img src="/assets/images/banner2.jpg" alt="banner 2">
+                    <NuxtImg src="/images/banner2.jpg" alt="banner 2"></NuxtImg>
                 </div>
             </div>
             <div class="w-full">
                 <button @click="slider.prev()" class="btn-slide left-[10px]">
-                    <img src="/assets/images/icons/icon-arrow.svg" alt="prev " class="rotate-90 icon-white">
+                    <NuxtImg src="/images/icons/icon-arrow.svg" alt="prev " class="rotate-90 icon-white"></NuxtImg>
                 </button>
 
                 <button @click="slider.next()" class="btn-slide right-[10px]">
-                    <img src="/assets/images/icons/icon-arrow.svg" alt="next" class="rotate-270 icon-white">
+                    <NuxtImg src="/images/icons/icon-arrow.svg" alt="next" class="rotate-270 icon-white"></NuxtImg>
                 </button>
             </div>
             <div v-if="slider" class="dots">

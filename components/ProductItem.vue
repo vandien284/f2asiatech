@@ -12,14 +12,14 @@ const props = defineProps<Props>()
         <div class="h-fit overflow-hidden relative w-full">
             <div class="item-function ">
                 <div class="item-img">
-                    <img :src="props.item.image_url" :alt="props.item.name" loading="lazy">
+                    <NuxtImg :src="props.item.image_url" :alt="props.item.name" loading="lazy"></NuxtImg>
                 </div>
             </div>
             <div class="flex items-center justify-center bottom-0 p-[0.25rem] absolute right-0 w-fit">
                 <div
                     class="flex items-center justify-center cursor-pointer h-[2.1rem] w-[2.1rem] bg-[#ca2628] rounded-full">
-                    <img src="/assets/images/icons/icon-cart.svg" alt="item" class="icon-white p-[.35rem]"
-                        loading="lazy">
+                    <NuxtImg src="/images/icons/icon-cart.svg" alt="cart" width="30" height="30" class="icon-white p-[.35rem]"
+                        loading="lazy"></NuxtImg>
                 </div>
             </div>
         </div>
