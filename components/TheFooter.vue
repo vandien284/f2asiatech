@@ -47,13 +47,13 @@
                                     alt="youtube" width="32" height="32"></NuxtImg>
                             </a>
                         </div>
-                        <a href="http://online.gov.vn/Home/WebDetails/66187" target="_blank">
-                            <NuxtImg src="/images/icons/logo_bct.webp" style="max-width:50%;"></NuxtImg></a>
+                        <a href="http://online.gov.vn/Home/WebDetails/66187" target="_blank" aria-label="return bct page">
+                            <NuxtImg src="/images/icons/logo_bct.webp" alt="logo_bct" style="max-width:50%;"></NuxtImg></a>
                     </div>
                 </div>
                 <div class="w-full sm:w-1/2 md:w-full lg:w-1/4 px-[12px]">
                     <a href="he-thong-cua-hang" class="store d-inline-block" title="Hệ thống cửa hàng">
-                        <NuxtImg alt="Hệ thống cửa hàng" src="/images/icons/mew_store.webp" data-src="/images/icons/mew_store.webp"></NuxtImg>
+                        <NuxtImg alt="store" src="/images/icons/mew_store.webp" data-src="/images/icons/mew_store.webp"></NuxtImg>
                         <span class="inline-block font-normal mt-2">Hệ thống cửa hàng</span>
 					</a> 
                 </div>

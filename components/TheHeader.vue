@@ -5,7 +5,7 @@
     <div class="header-container">
         <div class="header-content w-full max-width pd-container gap-[1rem] h-full flex items-center justify-between">
             <div class="img-brand select-none">
-                <NuxtLink href="/"> <img class="cursor-pointer" src="/images/logo-brand.png" /></NuxtLink>
+                <NuxtLink href="/" aria-label="return home page"> <NuxtImg class="cursor-pointer" alt="logo-brand" src="/images/logo-brand.png" /></NuxtLink>
             </div>
             <div class="header-find">
                 <div class="group-find">

@@ -62,11 +62,11 @@ onMounted(() => {
                 </div>
             </div>
             <div class="w-full">
-                <button @click="slider.prev()" class="btn-slide left-[10px]">
+                <button @click="slider.prev()" class="btn-slide left-[10px]" title="prev" aria-label="prev">
                     <NuxtImg src="/images/icons/icon-arrow.svg" alt="prev " class="rotate-90 icon-white"></NuxtImg>
                 </button>
 
-                <button @click="slider.next()" class="btn-slide right-[10px]">
+                <button @click="slider.next()" class="btn-slide right-[10px]" title="next" aria-label="next">
                     <NuxtImg src="/images/icons/icon-arrow.svg" alt="next" class="rotate-270 icon-white"></NuxtImg>
                 </button>
             </div>
