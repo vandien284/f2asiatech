@@ -5,6 +5,12 @@ interface Props {
 }
 const props = defineProps<Props>()
 
+const imageSrc = ref(props.item.image_url);
+
+const handleImageError = () => {
+  imageSrc.value = '/images/logo-brand.png';
+};
+
 </script>
 <template>
     <div
@@ -12,7 +18,7 @@ const props = defineProps<Props>()
         <div class="h-fit overflow-hidden relative w-full">
             <div class="item-function ">
                 <div class="item-img">
-                    <NuxtImg :src="props.item.image_url" :alt="props.item.name" loading="lazy"></NuxtImg>
+                    <NuxtImg :src="imageSrc" :alt="props.item.name" loading="lazy" @error="handleImageError"></NuxtImg>
                 </div>
             </div>
             <div class="flex items-center justify-center bottom-0 p-[0.25rem] absolute right-0 w-fit">
@@ -56,7 +62,7 @@ const props = defineProps<Props>()
     height: 100%;
     left: 0;
     -o-object-fit: cover;
-    object-fit: cover;
+    object-fit: contain;
     top: 0;
     transition: all .7s;
     width: 100%;

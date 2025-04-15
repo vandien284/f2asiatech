@@ -29,6 +29,10 @@ span {
     line-height: 16.5px;
 }
 
+.active {
+    color: #ca2628;
+}
+
 @media screen and (min-width: 1181px) {
     span {
         font-size: 16.5px;
@@ -253,6 +257,14 @@ img {
     line-height: 21px !important;
 }
 
+
+.fz-xs {
+    font-size: 12px !important;
+    line-height: 13px !important;
+}
+
+
+
 @media screen and (min-width: 1181px) {
     .fz-xxl {
         font-size: 20px !important;
@@ -309,5 +321,12 @@ img {
     .fz-md {
         font-size: 15.5px !important;
         line-height: 17.5px !important;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .fz-xs {
+        font-size: 11px !important;
+        line-height: 12px !important;
     }
 }

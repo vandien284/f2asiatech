@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Yen Market",
+      htmlAttrs: {
+        lang: 'en'
+      },
       link: [
         {
           rel: "icon",
