@@ -46,6 +46,10 @@ const [container, slider] = useKeenSlider(
         },
     ]
 )
+
+const handleImageError = () => {
+  imageSrc.value = '/images/logo-brand.png';
+};
 onMounted(() => {
     if (slider) {
         loading().stop()
@@ -57,8 +61,8 @@ onMounted(() => {
         <div class="w-full justify-center flex flex-wrap relative overflow-hidden">
             <div class="keen-slider pt-[12px]" ref="container">
                 <div v-for="item in banner.filter((item) => item.type == 1)" :key="item.id"
-                    :class="`banner-image keen-slider__slide number-slide${item.id} w-full`">
-                    <NuxtImg :src="item.image_url" :alt="`banner ${id}`" ></NuxtImg>
+                    :class="`banner-image keen-slider__slide number-slide${item.id} w-full flex justify-center items-center`">
+                    <NuxtImg :src="item.image_url" :alt="`banner ${id}`" @error="item.image_url = '/images/logo-brand.png'" sizes="10vw"></NuxtImg>
                 </div>
             </div>
             <div class="w-full">
@@ -81,7 +85,7 @@ onMounted(() => {
 </template>
 <style lang="css" scoped>
 .banner-image img {
-    width: 100%;
+    max-width: 100%;
 }
 .dots {
     display: flex;
