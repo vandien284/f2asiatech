@@ -57,11 +57,9 @@ onMounted(() => {
         <div class="w-full justify-center flex flex-wrap relative overflow-hidden">
             <div class="keen-slider pt-[12px]" ref="container">
                 <div v-for="item in banner.filter((item) => item.type == 1)" :key="item.id"
-                    :class="`keen-slider__slide number-slide${item.id} w-full`">
-                    <NuxtImg :src="item.image_url" :alt="`banner ${id}`"></NuxtImg>
+                    :class="`banner-image keen-slider__slide number-slide${item.id} w-full`">
+                    <NuxtImg :src="item.image_url" :alt="`banner ${id}`" ></NuxtImg>
                 </div>
-
-
             </div>
             <div class="w-full">
                 <button type="button" @click="slider.prev()" name="prev" class="btn-slide left-[10px]"
@@ -82,6 +80,9 @@ onMounted(() => {
     </div>
 </template>
 <style lang="css" scoped>
+.banner-image img {
+    width: 100%;
+}
 .dots {
     display: flex;
     padding: 10px 0;
