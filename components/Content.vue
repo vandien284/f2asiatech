@@ -5,8 +5,8 @@ const { banner } = storeToRefs(dataStore)
 <template>
     <div class="w-full flex items-center scroll">
         <div v-for="item in banner.filter((item) => item.type == 2)" :key="item.id"
-            class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <NuxtImg :src="item.image_url" class="max-w-full" alt="content 1"></NuxtImg>
+            class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8 flex justify-center items-center">
+            <NuxtImg :src="item.image_url" class="max-w-full" :alt="`content ${item.id}`" @error="item.image_url = '/images/logo-brand.png'" sizes="10vw"></NuxtImg>
         </div>
 
     </div>
