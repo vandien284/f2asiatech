@@ -4,10 +4,15 @@ import type { ICategory } from '~/shared/types/Category'
 import type { ISubCategory } from '~/shared/types/SubCategory'
 const dataStore = useDataStore()
 const { menus, categories, subCategories, products } = storeToRefs(dataStore)
+interface Props {
+  nameCate: string | undefined
+}
+
+const props = defineProps<Props>()
 </script>
 <template>
     <div class="w-full py-[0.65rem] px-[1rem] flex flex-col gap-[1rem]">
-        <span  class="subcate-name fz-xxl text-[#212529] font-bold">Cá và hải sản</span>
+        <span  class="subcate-name fz-xxl text-[#212529] font-bold">{{ props.nameCate }}</span>
         <div class="grid auto-rows-auto gap-[0.75rem] h-fit xl:grid-cols-5 lg:grid-cols-4 grid-cols-2">
             <ProductItem v-for="item in products" :key="item.id" :item="item"></ProductItem>
         </div>

@@ -1,14 +1,14 @@
+<script setup lang="ts">
+const dataStore = useDataStore()
+const { banner } = storeToRefs(dataStore)
+</script>
 <template>
     <div class="w-full flex items-center scroll">
-        <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <NuxtImg src="/images/banner3_1.webp" class="max-w-full" alt="content 1"></NuxtImg>
+        <div v-for="item in banner.filter((item) => item.type == 2)" :key="item.id"
+            class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
+            <NuxtImg :src="item.image_url" class="max-w-full" alt="content 1"></NuxtImg>
         </div>
-        <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <NuxtImg src="/images/banner3_3.webp" class="max-w-full" alt="content 2"></NuxtImg>
-        </div>
-        <div class="col-10 px-[8px] col-lg-4 col-md-7 col-sm-8">
-            <NuxtImg src="/images/banner3_2.webp" class="max-w-full" alt="content 3"></NuxtImg>
-        </div>
+
     </div>
 </template>
 
@@ -36,21 +36,21 @@
     border-radius: 10px;
 }
 
-@media (min-width: 992px)  {
+@media (min-width: 992px) {
     .col-lg-4 {
         flex: 0 0 auto;
         width: 33.33333333%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991){
+@media (min-width: 768px) and (max-width: 991) {
     .col-md-7 {
         flex: 0 0 auto;
         width: 58.33333333%;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767){
+@media (min-width: 576px) and (max-width: 767) {
     .col-sm-8 {
         flex: 0 0 auto;
         width: 66.66666667%;

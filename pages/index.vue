@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useDataStore } from '@/stores/data'
 const dataStore = useDataStore()
-const { menus, categories, subCategories, products } = storeToRefs(dataStore)
+const { menus, categories, subCategories, products, banner } = storeToRefs(dataStore)
+await dataStore.fetchAllBanner()
 await dataStore.fetchAllMenu()
 await dataStore.fetchProduct(subCategories.value[0].id ?? 0)
 const showModal = ref(false)
@@ -30,7 +31,7 @@ const handleShowModal = () => {
                 <Banner></Banner>
             </div>
             <Content></Content>
-            <Products></Products>
+            <Products :name-cate="subCategories[0].name"></Products>
         </div>
     </div>
 </template>

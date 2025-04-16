@@ -1,6 +1,8 @@
 <script setup>
 import { useKeenSlider } from 'keen-slider/vue.es'
-
+import { useDataStore } from '@/stores/data'
+const dataStore = useDataStore()
+const { banner } = storeToRefs(dataStore)
 const current = ref(0)
 const dotHelper = ref(null)
 
@@ -45,28 +47,30 @@ const [container, slider] = useKeenSlider(
     ]
 )
 onMounted(() => {
-    if(slider) {
+    if (slider) {
         loading().stop()
     }
 })
 </script>
-<template> 
+<template>
     <div class="flex-1 min-w-0">
         <div class="w-full justify-center flex flex-wrap relative overflow-hidden">
             <div class="keen-slider pt-[12px]" ref="container">
-                <div class="keen-slider__slide number-slide1 w-full">
-                    <NuxtImg src="/images/banner1.jpg" alt="banner 1"></NuxtImg>
+                <div v-for="item in banner.filter((item) => item.type == 1)" :key="item.id"
+                    :class="`keen-slider__slide number-slide${item.id} w-full`">
+                    <NuxtImg :src="item.image_url" :alt="`banner ${id}`"></NuxtImg>
                 </div>
-                <div class="keen-slider__slide number-slide2 w-full">
-                    <NuxtImg src="/images/banner2.jpg" alt="banner 2"></NuxtImg>
-                </div>
+
+
             </div>
             <div class="w-full">
-                <button type="button" @click="slider.prev()" name="prev" class="btn-slide left-[10px]" aria-label="prev">
+                <button type="button" @click="slider.prev()" name="prev" class="btn-slide left-[10px]"
+                    aria-label="prev">
                     <NuxtImg src="/images/icons/icon-arrow.svg" alt="prev " class="rotate-90 icon-white"></NuxtImg>
                 </button>
 
-                <button type="button" @click="slider.next()" name="next" class="btn-slide right-[10px]" aria-label="next">
+                <button type="button" @click="slider.next()" name="next" class="btn-slide right-[10px]"
+                    aria-label="next">
                     <NuxtImg src="/images/icons/icon-arrow.svg" alt="next" class="rotate-270 icon-white"></NuxtImg>
                 </button>
             </div>
@@ -118,6 +122,4 @@ onMounted(() => {
     transform: translateY(-50%);
     z-index: 1;
 }
-
-
 </style>
